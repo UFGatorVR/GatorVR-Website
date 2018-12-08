@@ -1,0 +1,22 @@
+#navbar {
+  cursor: alias;
+  height: 100%;
+  width: 20%;
+}
+
+body {
+  background-color: #393939;
+}
+
+#title {
+  z-index: 265;
+  top: 30%;
+  font-size: 80px;
+  color:#E0E0E0;
+  font-family: 'Dosis', sans-serif;
+}
+
+#logo {
+  height: 40%;
+  width: auto;
+}

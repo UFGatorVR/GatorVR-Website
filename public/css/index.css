@@ -1,0 +1,73 @@
+p {
+  font-size: 50px;
+  font-family: cursive;
+}
+
+#navbar {
+  cursor: alias;
+  height: 100%;
+  width: 20%;
+}
+
+body {
+  background-color: #393939;
+}
+
+h1 {
+  font-size: 100px;
+  color:#E0E0E0;
+  font-family: 'Playfair Display', serif;
+
+}
+
+#world {
+    width: 100%;
+    height: 150px;
+    background-color: red;
+}
+
+#test {
+    position:absolute;
+    z-index:5;
+}
+
+#page {
+  z-index: 99;
+}
+
+.navbar {
+  margin-bottom: -30px;
+  margin-right: -20px;
+}
+
+#title {
+  z-index: 265;
+  position: absolute;
+  align: center;
+  top: 40%;
+  left: 25%;
+  font-size: 100px;
+  color:#E0E0E0;
+  font-family: 'Dosis', sans-serif;
+}
+
+a:link {
+color: #cc0000;
+}
+
+#text {
+  z-index: 265;
+  position: absolute;
+  align: center;
+  top: 60%;
+  left: 45%;
+  font-size: 50px;
+  color:#E0E0E0;
+  font-family: 'Dosis', sans-serif;
+  transition: 0.5s;
+}
+
+#text:hover {
+  transform: scale(1.5);
+  transition: all .5s ease-in-out;
+}
