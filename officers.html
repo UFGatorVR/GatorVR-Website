@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>GatorVR</title>
+    <meta name="description" content="GatorVR">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/events.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Playfair+Display" rel="stylesheet">
+    <script src="js/three.min.js"></script>
+    <script src="js/app.js"></script>
+    <!-- <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script> -->
+  </head>
+  <body background="images/stars.jpg">
+    <div class="bg-image"></div>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">GatorVR</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="events.html">Events</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="class.html">VR for the Social Good</a></li>
+          <li><a href="sponsors.html">Sponsors</a></li>
+          <li><a href="merch.html">Merchandise</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="officers.html">Officers</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div align="center">
+    <div class="w3-content w3-section" style="max-width:700px">
+      <div class="mySlides">
+        <h2 style="color:white; font-size: 30px;">President: Samantha Garcia</h2>
+        <img src="images/sam.jpg" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <h2 style="color:white; font-size: 30px;">Vice-President: Liam Wood</h2>
+        <img  src="images/liam.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <h2 style="color:white; font-size: 30px;">Treasurer: Dania Etienne</h2>
+        <img src="images/dania.jpg" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <h2 style="color:white; font-size: 30px;">Project Manager: Luke Stumpf</h2>
+        <img src="images/luke.jpg" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <h2 style="color:white; font-size: 30px;">Community Outreach: Jenninfer Bernal</h2>
+        <img src="images/jennifer.jpg" style="width:70%">
+      </div>
+      <div class="mySlides">
+        <h2 style="color:white; font-size: 30px;">Secretary: May Song</h2>
+        <img src="images/may.jpg" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <h2 style="color:white; font-size: 30px;">Historian: Juliet Maisha</h2>
+        <img src="images/juliet.jpg" style="width:70%">
+      </div>
+    </div>
+  </div>
+    <script>
+    // https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_rr
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}
+          x[myIndex-1].style.display = "block";
+          setTimeout(carousel, 3000); // Change image every 2 seconds
+      }
+</script>
+  </body>
+  </html>

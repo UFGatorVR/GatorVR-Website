@@ -1,0 +1,29 @@
+#navbar {
+  cursor: alias;
+  height: 100%;
+  width: 20%;
+}
+
+#gatorvr {
+  z-index:-1;
+  height:100%;
+  width: auto;
+  margin-top: -20px;
+  position:absolute;
+  bottom: 0;
+  right: 0;
+  top: 60;
+}
+
+h1 {
+
+}
+
+.listing {
+  font-size: 20px;
+}
+
+mark {
+    background-color: black;
+    color: white;
+}

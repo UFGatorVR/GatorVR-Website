@@ -44,8 +44,12 @@ h1 {
   z-index: 265;
   position: absolute;
   align: center;
+  /* top: 40%; */
+  /* left: 25%; */
+  left: 0;
+  right: 0;
+  margin: auto;
   top: 40%;
-  left: 25%;
   font-size: 100px;
   color:#E0E0E0;
   font-family: 'Dosis', sans-serif;
@@ -59,8 +63,10 @@ color: #cc0000;
   z-index: 265;
   position: absolute;
   align: center;
+  left: 0;
+  right: 0;
+  margin: auto;
   top: 60%;
-  left: 45%;
   font-size: 50px;
   color:#E0E0E0;
   font-family: 'Dosis', sans-serif;
